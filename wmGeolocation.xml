@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.9" type="plugin" group="system" method="upgrade">
+    <name>World Manager - Geolocation</name>
+    <description>World Manager geolocation plugin for Joomla.</description>
+
+    <files>
+        <filename plugin="wmGeolocation">wmGeolocation.php</filename>
+       <folder>geoip</folder>
+    </files>
+</extension>

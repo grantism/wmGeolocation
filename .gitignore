@@ -1,0 +1,19 @@
+# OS and various viewers garbage
+Thumbs.db
+.DS_Store
+
+# Eclipse, Intellij IDEA, and Sublime Text project configs
+/.settings/
+/.project
+/.classpath
+/.buildpath
+/.gradle
+/build
+/.nb-gradle
+/classes
+/.idea/
+*.iml
+*.ipr
+*.iws
+*.sublime-project
+*.sublime-workspace
