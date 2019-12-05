@@ -2,6 +2,9 @@
 <extension version="3.9" type="plugin" group="system" method="upgrade">
     <name>World Manager - Geolocation</name>
     <description>World Manager geolocation plugin for Joomla.</description>
+    <version>1.1</version>
+    <creationDate>December 2019</creationDate>
+    <author>World Manager</author>
 
     <files>
         <filename plugin="wmGeolocation">wmGeolocation.php</filename>

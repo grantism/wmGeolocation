@@ -3,7 +3,7 @@
  * World Manager geolocation plugin for Joomla.
  * This is required to use the wmCareers & wmLanguageSwitch plugins.
  * @package wmGeolocation
- * @version 1.0
+ * @version 1.1
  * @author Grant McNally <grantmcnally@gmail.com>
  * @link https://github.com/grantism/wmGeolocation
  */
@@ -109,5 +109,19 @@ class PlgSystemWmGeolocation extends JPlugin {
      */
     public function isUnitedStates() {
         return $this->getCountryIsoCode() == 'US';
+    }
+
+    /**
+     * @return bool
+     */
+    public function isCanada() {
+        return $this->getCountryIsoCode() == 'CA';
+    }
+
+    /**
+     * @return bool
+     */
+    public function isIndonesia() {
+        return $this->getCountryIsoCode() == 'ID';
     }
 }
